@@ -21,7 +21,7 @@ const workerConfig = {
       // `name` is used at status page and callback message
       name: '华职云场Monitor',
       // `method` should be a valid HTTP Method
-      method: 'POST',
+      method: 'GET',
       // `target` is a valid URL
       target: 'https://huazhiyunchang.com',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
