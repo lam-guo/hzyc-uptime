@@ -1,10 +1,10 @@
 const pageConfig = {
-  // Title for your status page
-  title: "hzyc网站健康",
-  // Links shown at the header of your status page, could set `highlight` to `true`
-  links: [
-    { link: 'huazhiyunchang.com', label: '主页', highlight: true },
-  ],
+  // // Title for your status page
+  // title: "hzyc网站健康",
+  // // Links shown at the header of your status page, could set `highlight` to `true`
+  // links: [
+  //   { link: 'huazhiyunchang.com', label: '主页', highlight: true },
+  // ],
 }
 
 const workerConfig = {
@@ -17,15 +17,15 @@ const workerConfig = {
     // Example HTTP Monitor
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'foo_monitor',
+      id: 'huazhiyunchang.com',
       // `name` is used at status page and callback message
-      name: '华职云场Monitor',
+      name: '华职云场官网',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
       target: 'https://huazhiyunchang.com',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'This is a tooltip for this monitor',
+      // tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
       statusPageLink: 'https://huazhiyunchang.com',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
@@ -38,7 +38,7 @@ const workerConfig = {
       //   Authorization: 'Bearer YOUR_TOKEN_HERE',
       // },
       // [OPTIONAL] body to be sent
-      body: 'Hello, world!',
+      // body: 'Hello, world!',
       // [OPTIONAL] if specified, the response must contains the keyword to be considered as operational.
       // responseKeyword: 'success',
       // [OPTIONAL] if specified, the check will run in your specified region,
