@@ -1,6 +1,6 @@
 const pageConfig = {
   // // Title for your status page
-  // title: "hzyc网站健康",
+  title: "网站健康",
   // // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
   //   { link: 'huazhiyunchang.com', label: '主页', highlight: true },
